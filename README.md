@@ -4,6 +4,11 @@ Automated script to install and run a **Nockchain miner node** with ease. Design
 
 ---
 
+## 🐦 SOCIALS
+🔗 Twitter:  https://x.com/Jaishiva0302      
+💬 Telegram: https://t.me/vampsairdrop 
+
+---
 ## 📦 Features
 
 - Auto installs dependencies
@@ -23,7 +28,14 @@ Automated script to install and run a **Nockchain miner node** with ease. Design
 - Basic VPS or dedicated server
 
 ---
+## 💻 create a screen session
 
+```bash 
+
+apt install screen -y && apt install sudo -y && screen -S nockminer
+
+```
+> Then paste the below commands 
 ## ⚙️ One-Line Installation Command
 
 ```bash
