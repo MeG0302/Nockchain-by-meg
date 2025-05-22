@@ -7,6 +7,37 @@ Automated script to install and run a **Nockchain miner node** with ease. Design
 ## 🐦 SOCIALS
 🔗 Twitter:  https://x.com/Jaishiva0302      
 💬 Telegram: https://t.me/vampsairdrop 
+---
+
+# Nockchain-mining Guide by MeG
+
+
+---
+
+**Nockchain** is a lightweight blockchain designed for heavy-duty computation. It leverages **zk-Proof of Work (zkPoW)**, where miners solve a fixed computational puzzle, generate a **zero-knowledge proof (ZKP)** of the solution, hash the ZKP, and earn **\$NOCK tokens** based on their computational effort.
+
+The team has launched a **Public Testnet**, allowing users to run both a **local testnet node** and a **testnet miner** to explore and understand how Nockchain operates before the **Mainnet** goes live.
+
+
+![Screenshot 2025-05-21 053502](https://github.com/user-attachments/assets/ad102b46-32e8-4018-9569-3c7a00aaaaeb)
+
+---
+
+## $NOCK details 
+
+O Total Supply: 2^32 nocks (around 4.29 billion).
+
+O Fair launch: 100% of $NOCK will be issued to Miners.
+
+O $NOCK is used to pay for blockspace on Nockchain.
+
+❌ No exchanges
+
+❌ No team allocation
+
+❌ No airdrops
+
+---
 
 ---
 ## 📦 Features
@@ -22,7 +53,7 @@ Automated script to install and run a **Nockchain miner node** with ease. Design
 ## 🖥️ System Requirements
 
 - Ubuntu 20.04 / 22.04 (recommended)
-- At least 24GB RAM (32GB+ preferred)
+- At least 32GB RAM (64GB+ preferred)
 - Or GPU (RTX3090 OR RTX4090)
 - 20GB disk space
 - Basic VPS or dedicated server
