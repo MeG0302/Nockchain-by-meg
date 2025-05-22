@@ -81,14 +81,6 @@ read -rp "$(echo -e "${YELLOW}🔑 Enter your PUBLIC KEY to update .env: ${RESET
 sed -i "s|MINING_PUBKEY=.*|MINING_PUBKEY=$pubkey|" .env
 echo -e "${GREEN}✅ .env updated with your public key.${RESET}"
 
-# UFW Firewall Setup
-echo -e "${CYAN}🛡️ Setting up UFW firewall...${RESET}"
-sudo ufw allow ssh
-sudo ufw allow 22
-sudo ufw allow 3005/tcp
-sudo ufw allow 3006/tcp
-sudo ufw --force enable
-check_success
 
 # Final launch prompt
 read -rp "$(echo -e "${YELLOW}🚀 Re-enter your PUBLIC KEY to start the miner: ${RESET}")" start_pubkey
