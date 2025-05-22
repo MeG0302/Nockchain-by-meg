@@ -58,7 +58,15 @@ O $NOCK is used to pay for blockspace on Nockchain.
 - 20GB disk space
 - Basic VPS or dedicated server
 
+you can buy vps from contabo here - https://contabo.com/en/vps/
+
+![Screenshot 2025-05-23 041956](https://github.com/user-attachments/assets/92bb9967-0201-420a-ac66-5bb4a580a24c)
+
 ---
+
+>> STEP 1 - Open terminal
+
+
 ## 💻 create a screen session
 
 ```bash 
