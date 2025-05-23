@@ -104,3 +104,25 @@ sudo apt update && sudo apt install git -y && apt install tmux -y && tmux && apt
 >> These are the normal logs
 
 ![Screenshot 2025-05-22 230907](https://github.com/user-attachments/assets/b394c87b-9ff6-42c3-94ba-737ddebb2de7)
+
+
+just in case you want to see more detailed logs (no trace element)
+then stop the node by pressing CTRL C
+and paste below command but change/replace "(add your pub key here and remove brackets also before running)" with your pblic key 
+
+```bash
+
+export RUST_LOG=info
+nockchain --mining-pubkey (add your pub key here and remove brackets also before running)
+ --mine --peer /ip4/95.216.102.60/udp/3006/quic-v1 --peer /ip4/65.108.123.225/udp/3006/quic-v1 --peer /ip4/65.109.156.108/udp/3006/quic-v1 --peer /ip4/65.21.67.175/udp/3006/quic-v1 --peer /ip4/65.109.156.172/udp/3006/quic-v1 --peer /ip4/34.174.22.166/udp/3006/quic-v1 --peer /ip4/34.95.155.151/udp/30000/quic-v1 --peer /ip4/34.18.98.38/udp/30000/quic-v1
+
+```
+
+then you will get these logs 
+
+![Screenshot 2025-05-23 060102](https://github.com/user-attachments/assets/8322e773-972b-42b9-9228-87f1d3d86adf)
+
+>> NOTE!
+
+look for "Generating new candidate" like in above screenshot
+
