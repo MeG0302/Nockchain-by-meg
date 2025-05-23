@@ -125,4 +125,4 @@ then you will get these logs
 >> NOTE!
 
 look for "Generating new candidate" like in above screenshot
-
+it does mean your miner is working all fine
