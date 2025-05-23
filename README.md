@@ -74,6 +74,12 @@ you can buy vps from contabo here - https://contabo.com/en/vps/
 apt install screen -y && apt install sudo -y && apt install ufw -y && screen -S nockminer
 
 ```
+### Install tmux
+```
+ apt install tmux -y && tmux
+
+```
+
 > Then paste the below commands 
 
 ### Open ports 
@@ -95,7 +101,7 @@ sudo ufw allow 3006/tcp
 ## ⚙️ One-Line Installation Command
 
 ```bash
-sudo apt update && sudo apt install git -y && apt install tmux -y && tmux && apt install ufw -y && git clone https://github.com/MeG0302/Nockchain-by-meg && cd Nockchain-by-meg && chmod +x setup.sh && ./setup.sh
+sudo apt update && sudo apt install git -y && apt install ufw -y && git clone https://github.com/MeG0302/Nockchain-by-meg && cd Nockchain-by-meg && chmod +x setup.sh && ./setup.sh
 
 ```
 
