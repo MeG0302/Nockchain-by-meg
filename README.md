@@ -71,7 +71,7 @@ you can buy vps from contabo here - https://contabo.com/en/vps/
 
 ```bash 
 
-apt install screen -y && apt install sudo -y && screen -S nockminer
+apt install screen -y && apt install sudo -y && apt install ufw -y && screen -S nockminer
 
 ```
 > Then paste the below commands 
