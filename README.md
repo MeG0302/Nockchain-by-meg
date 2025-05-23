@@ -75,6 +75,23 @@ apt install screen -y && apt install sudo -y && screen -S nockminer
 
 ```
 > Then paste the below commands 
+
+### Open ports 
+
+```bash
+
+# Allow ssh port
+sudo ufw allow ssh
+sudo ufw allow 22
+
+# Enable firewall
+sudo ufw enable
+
+# Open ports
+sudo ufw allow 3005/tcp
+sudo ufw allow 3006/tcp
+
+```
 ## ⚙️ One-Line Installation Command
 
 ```bash
